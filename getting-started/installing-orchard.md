@@ -39,9 +39,11 @@ To begin, download and install the Web Platform Installer. When you're done, run
 
 ![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/Install_acceptterms.png)
 
-When the installation is complete, the dialog shows the list of installed tools in addition to Orchard. Click the Launch link to open the site in WebMatrix.
+安装完成之后,对话框会显示已经安装的除了Orchard之外的工具列表.点击启动链接从而在WebMatrix中打开网站.
 
-Running Orchard in WebMatrix
+![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/Install_success.png)
+
+## 在WebMatrix中运行Orchard
 
 After WebMatrix starts, it should inmediately launch Orchard in the default browser. If not, you can launch Orchard by clicking the Run drop-down button, and selecting which browser to use. In WebMatrix you can click the Files workspace to see the contents of the Orchard site.
 
