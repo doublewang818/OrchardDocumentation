@@ -23,7 +23,7 @@
 
 安装IIS时,你要确保开启了ASP.NET IIS模块.同时确保你的Orchard运行在集成管道的ASP.NET4应用程序池.
 
-> **重点**:如果你以前安装过任何先行版本的WebMatrix,ASP.NET Web Pages或者ASP.NET MVC4,为了让Orchard正确的在你的电脑上运行,你应该卸载这些产品.开发一个Orchard网页,许多开发者会使用像SQL Server这样的数据库以及像WebMatrix或者Visual Studio 2013这样的网页开发环境.以下的安装过程是在一个比较干净的Windows8.1系统中进行的.它使用了Web Platform Installer并且包含了Orchard,IIS 8.0 Express,还有WebMatrix和SQL Server Compact 4.0之类的用于Orchard开发的可选的应用程序.
+> **重点**:如果你以前安装过任何预览版的WebMatrix,ASP.NET Web Pages或者ASP.NET MVC4,为了让Orchard正确的在你的电脑上运行,你应该卸载这些产品.开发一个Orchard网页,许多开发者会使用像SQL Server这样的数据库以及像WebMatrix或者Visual Studio 2013这样的网页开发环境.以下的安装过程是在一个比较干净的Windows8.1系统中进行的.它使用了Web Platform Installer并且包含了Orchard,IIS 8.0 Express,还有WebMatrix和SQL Server Compact 4.0之类的用于Orchard开发的可选的应用程序.
 
 ## 安装Orchard
 
