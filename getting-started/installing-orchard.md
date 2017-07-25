@@ -23,15 +23,21 @@
 
 安装IIS时,你要确保开启了ASP.NET IIS模块.同时确保你的Orchard运行在集成管道的ASP.NET4应用程序池.
 
-Important: If you previously installed any pre-release versions of WebMatrix, ASP.NET Web Pages, or ASP.NET MVC 4, you should uninstall those products before Orchard will run correctly on your computer. To develop Orchard sites, many developers will want to use a database such as SQL Server, and a web page programming environment such as WebMatrix or Visual Studio 2013. The following installation was tested with a clean installation of Windows 8.1. It uses the Web Platform Installer and it includes Orchard, IIS 8.0 Express, and optional applications for Orchard development like WebMatrix and SQL Server Compact 4.0.
+> **重点**:如果你以前安装过任何先行版本的WebMatrix,ASP.NET Web Pages或者ASP.NET MVC4,为了让Orchard正确的在你的电脑上运行,你应该卸载这些产品.开发一个Orchard网页,许多开发者会使用像SQL Server这样的数据库以及像WebMatrix或者Visual Studio 2013这样的网页开发环境.以下的安装过程是在一个比较干净的Windows8.1系统中进行的.它使用了Web Platform Installer并且包含了Orchard,IIS 8.0 Express,还有WebMatrix和SQL Server Compact 4.0之类的用于Orchard开发的可选的应用程序.
 
-Installing Orchard
+## 安装Orchard
+
+首先,你需要下载和安装[Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).如果你已经完成了,运行它
 
 To begin, download and install the Web Platform Installer. When you're done, run it.
 
-Find Orchard CMS and then click Add to include Orchard as an item to install.
+找到Orchard CMS然后点击Add按钮把Orchard选中为一个安装选项.
 
-Click Install. Accept the license terms in order to continue.
+![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/webpi_install.png)
+
+点击安装.接受许可条款继续.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/Install_acceptterms.png)
 
 When the installation is complete, the dialog shows the list of installed tools in addition to Orchard. Click the Launch link to open the site in WebMatrix.
 
