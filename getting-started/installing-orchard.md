@@ -21,7 +21,7 @@
 
 * 一个诸如 IIS Express 8, 7.5 或 IIS 7.x的应用服务器.
 
-When installing IIS, make sure you enable the ASP.NET IIS modules. Also make sure that you run Orchard in an integrated pipeline ASP.NET 4 application pool.
+安装IIS时,你要确保开启了ASP.NET IIS模块.同时确保你的Orchard运行在集成管道的ASP.NET4应用程序池.
 
 Important: If you previously installed any pre-release versions of WebMatrix, ASP.NET Web Pages, or ASP.NET MVC 4, you should uninstall those products before Orchard will run correctly on your computer. To develop Orchard sites, many developers will want to use a database such as SQL Server, and a web page programming environment such as WebMatrix or Visual Studio 2013. The following installation was tested with a clean installation of Windows 8.1. It uses the Web Platform Installer and it includes Orchard, IIS 8.0 Express, and optional applications for Orchard development like WebMatrix and SQL Server Compact 4.0.
 
