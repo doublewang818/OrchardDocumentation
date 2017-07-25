@@ -1,4 +1,4 @@
-# My Orchard Documention
+# Orchard文档
 
-This is the Chinese Version of Orchard Documention which sync from docs.orchardproject.net
+个人学习过程中翻译的Orchard文档中文版,翻译自docs.orchardproject.net
 
