@@ -6,7 +6,7 @@
 
 你可以通过以下四种方式安装Orchard:
 
-* 通过Microsoft Web Platform安装程序安装.
+* 通过Microsoft Web Platform Installer安装.
 * 通过Microsoft WebMatrix 安装,详见[在WebMatrix中使用Orchard](/getting-started/working-with-orchard-in-webmatrix.md).
 * 下载Orchard.zip文件然后安装,详见[使用zip文件手动安装Orchard](/getting-started/manually-installing-orchard.md).
 * 在Orchard源代码中注册然后通过命令行或Visual Studio构建Orchard.
