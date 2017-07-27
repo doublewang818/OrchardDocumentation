@@ -20,7 +20,7 @@
 
 ![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_select_orchard_675.png)
 
-点击接受条款.
+点击接受**条款**.
 
 ![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_orchard_eula_675.png)
 
@@ -44,9 +44,25 @@ Orchard建立了初始化网站并在浏览器中打开了站点的主页.你讲
 
 ![](http://docs.orchardproject.net/en/latest/Upload/screenshots/webmatrix_run.png)
 
-处理你的文件
+## 处理你的文件
 
-你可以使用WebMatrix编辑Orchard中的文件.WebMatrix提供了一个简单的编辑器涵盖了HTML色彩, CSS, JavaScript, 和代码文件.
+你可以使用WebMatrix编辑Orchard中的文件.WebMatrix提供了一个简单的编辑器涵盖了HTML着色, CSS, JavaScript, 和代码文件.
+
+虽然WebMatrix没有提供一套用来编译代码的机制,但是Orchard自身提供了在代码被编辑时的动态编译.更多信息可以参考Orchard动态编译.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_files_675.png)
+
+你可以通过以下[指导](http://sybak.com/blog/2011/02/changing-the-file-types-that-open-with-webmatrix/)改变WebMatrix编辑器.
+
+比如,你可能会发现XML编辑器\(可以自动着色\)去处理`Palcement.info`文件比较有用
+
+
+
+
+
+
+
+
 
 
 
