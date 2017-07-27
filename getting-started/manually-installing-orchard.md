@@ -111,9 +111,9 @@ _这个过程是在Visual Studio 2013 Update 1中进行的._
 
 ![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/contents_of_source_zip_file.png)
 
+启动Visual Studio然后选择 **File **&gt; **Open** &gt; **Project/Solution**.导航到你解压zip文件的文件夹然后打开名为src的文件夹,选择Orchard.sln**解决方案**文件.
 
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/VSOpenSolution.png)
 
-
-
-
+点击Ctrl+F5运行网站.你将会在你的浏览器中看到Orchard设置界面.
 
