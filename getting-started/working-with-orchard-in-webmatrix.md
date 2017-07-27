@@ -38,3 +38,15 @@ Orchard建立了初始化网站并在浏览器中打开了站点的主页.你讲
 
 ![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/new_default_site_675.png)
 
+## 通过WebMatrix运行你的网站
+
+在任何时候,你都可以在WebMatrix中通过点击项目结点并运行你的网站.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots/webmatrix_run.png)
+
+处理你的文件
+
+你可以使用WebMatrix编辑Orchard中的文件.WebMatrix提供了一个简单的编辑器涵盖了HTML色彩, CSS, JavaScript, 和代码文件.
+
+
+
