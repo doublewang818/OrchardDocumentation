@@ -63,5 +63,27 @@ Orchard第一次运行时,你将会在你的浏览器中看到Orchard设置界�
 * **博客**.建立一个作为个人博客的网站.
 * **核心**.建立一个只有Orchard框架用于开发使用的网站. 
 
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots/get_started_recipe.png)
 
+更多关于配方的信息以及如何制作一个自定义的配方,可以参考制作一个网站配方.
+
+当你在设置界面输完必要信息之后,点击**完成设置**.设置过程完成后,你新站点的主页就显示出来了.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/first_frontend.png)
+
+现在你可以开始配置你的网站了.
+
+
+
+## Change History
+
+Updates for Orchard 1.8
+
+4-15-14: Updated info for 1.8 release. Updated some screenshots, requirements, .zip link and other minor changes.
+
+Updates for Orchard 1.1
+
+4-12-11: Updated screens for 1.1 installation.
+
+3-14-11: Added information about recipes in the setup screen.
 
