@@ -102,5 +102,35 @@ Orchard建立了初始化网站并在浏览器中打开了站点的主页.你讲
 
 发布你的网站
 
-当你准备好将本地的网站备份上传到Internet的
+当你准备好将本地的网站备份上传到Internet时,你可以点击WebMatrix工具栏的**发布**按钮.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots/webmatrix_publish.png)
+
+你第一次发布时,**发布你的站点**对话框会显示.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_publish_firsttime_675.png)
+
+要发布一个网站,你必须要有一个主机商的帐号.如果你还没有的话,你可以选择**Get Started with Windows Azure** 或 **Find Windows Web Hosting**.如果你选择Windows Azure,你将会选择将你的网站建立为Azure Websit或者Azure Web Role.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_AzurePortal_675.png)
+
+在你创建了一个主机商的帐号之后,供应商会给你发送一封关于你的用户名,主机名和其他相关信息的邮件.为了节省你手动操作相关信息的步骤,你还会收到一个包含这些信息"Profile XML"文件\(以`.publishsettings`后缀为名\)你可以用过导入发布配置文件.你也可以手动完成这些信息设置.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_import_settings_675.png)
+
+在你完成发布站点之后,你可能想要做一些修改并重新发布.在你接下来的**发布**中,WebMatrix会列出自上次发布之后被修改的文件.这时候你可以选择哪些想被上传然后选择**继续**或**取消**.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_publish_preview_675.png)
+
+一旦你发布了你的网站,你可以通过**Remote View**功能去查看远程站点的文件
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_remote_view_675.png)
+
+更多关于使用WebMatrix发布网站的信息可以点击[这里](https://www.microsoft.com/web/post/how-to-publish-a-web-application-using-webmatrix).
+
+## Change History
+
+Updates for Orchard 1.6
+
+11-14-12: Updated screens and workflow.
 
