@@ -170,3 +170,21 @@ Orchard第一次运行时,你将会在你的浏览器中看到Orchard设置界�
 
 现在你已经在Orchard主页并且可以开始配置你的网站了.
 
+## Change History
+
+Updates for Orchard 1.8
+
+4-9-14: Added screenshots and more detail to the IIS section. Updated Webmatrix screenshots. Changed a bit the structure of some paragraphs to make them clearer. Updated some links.
+
+Updates for Orchard 1.6
+
+11-07-12: Updated screens for 1.6 installation.
+
+4-12-11: Updated screens for 1.1 installation.
+
+3-14-11: Added section on using WebMatrix and IIS Express.
+
+3-14-11: Added information about recipes in the setup screen.
+
+3-15-11: Fixed the IIS section to use the Orchard subfolder from the zip.
+
