@@ -54,15 +54,35 @@ Orchard建立了初始化网站并在浏览器中打开了站点的主页.你讲
 
 你可以通过以下[指导](http://sybak.com/blog/2011/02/changing-the-file-types-that-open-with-webmatrix/)改变WebMatrix编辑器.
 
-比如,你可能会发现XML编辑器\(可以自动着色\)去处理`Palcement.info`文件比较有用
+比如,你可能会发现XML编辑器\(可以自动着色\)去处理`Palcement.info`文件比较有用.为了这样做在WebMatrix文件`filetypes.xml`中你必须改变`.info`文件的设置\(你可以在以下目录中找到\)
 
+> `32-bit machines: C:\Program Files\Microsoft WebMatrix\config\filetypes.xml`
+>
+> `64-bit machines: C:\Program Files (x86)\Microsoft WebMatrix\config\filetypes.xml`
 
+1\)在XML文件类型中加入`.info`文件后缀
 
+```XML
+<FileType extension=".info;.config;.csproj;.vbproj;.resx;.settings;.sitemap;.user;.wsdl;.browser;.xaml;.xml;.xoml;.xsd;.xsl;.xslt;.mxml;.dbml;.wstemplate">
+    <OpenAs>XML</OpenAs>
+    <TabColor>Yellow</TabColor>
+    <Icon>XMLFileIcon</Icon>
+    <EmitUtf8BomByDefault>True</EmitUtf8BomByDefault>
+    <Description>An XML File</Description>
+</FileType>
+```
 
+2\)在文本文件类型中移除`.info`文件后缀
 
+```XML
+<FileType extension=".ashx;.export;.po;.blogtemplate;.yml;.yaml;.manifest;.pl;.json;.csv">
+    <OpenAs>Text</OpenAs>
+    <TabColor>Gray</TabColor>
+    <Icon>DefaultFileIcon</Icon>
+    <EmitUtf8BomByDefault>False</EmitUtf8BomByDefault>
+    <Description>Unknown file type</Description>
+</FileType>
+```
 
-
-
-
-
+3\)重启WebMatrix使改变生效.
 
