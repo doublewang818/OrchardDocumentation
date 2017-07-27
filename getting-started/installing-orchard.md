@@ -45,7 +45,7 @@ To begin, download and install the Web Platform Installer. When you're done, run
 
 ## 在WebMatrix中运行Orchard
 
-WebMatrix启动后,它会立刻在默认的浏览器中启东Orchard.你也可以点击**运行**下拉按钮并选择浏览器启动Orchard如果没有自动启动.在WebMatrix中你可以点击**文件**工作空间查看Orchard网站的内容.
+WebMatrix启动后,它会立刻在默认的浏览器中启动Orchard.如果没有自动启动Orchard,你也可以点击**运行**下拉按钮并选择浏览器启动.在WebMatrix中你可以点击**文件**工作空间查看Orchard网站的内容.
 
 ![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/launch_Orchard_WebMatrix.png)
 
