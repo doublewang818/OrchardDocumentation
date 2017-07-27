@@ -133,12 +133,9 @@ Orchard第一次运行时,你将会在你的浏览器中看到Orchard设置界�
 
 在设置界面中还有一个区域可以让你选择一个Orchard配方去建立你的网站.你可以选择以下几种Orchard配方:
 
-* **默认**
-  .建立一个经常被使用的Orchard功能的网站.
-* **博客**
-  .建立一个作为个人博客的网站.
-* **核心**
-  .建立一个只有Orchard框架用于开发使用的网站.
+* **默认**.建立一个经常被使用的Orchard功能的网站.
+* **博客**.建立一个作为个人博客的网站.
+* **核心**.建立一个只有Orchard框架用于开发使用的网站.
 
 ![](http://docs.orchardproject.net/en/latest/Upload/screenshots/get_started_recipe.png)
 
@@ -171,5 +168,5 @@ Orchard第一次运行时,你将会在你的浏览器中看到Orchard设置界�
 
 ![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/first_frontend.png)
 
-现在你已经在Orchard主页并且开始配置你的网站了.
+现在你已经在Orchard主页并且可以开始配置你的网站了.
 
