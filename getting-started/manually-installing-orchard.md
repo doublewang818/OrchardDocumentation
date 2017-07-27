@@ -45,7 +45,7 @@ _这个过程是在纯净的Windows 8.1 企业版中进行的._
 
 系统重启后,在[这里](https://github.com/OrchardCMS/Orchard/releases/latest)下载Orchard.Web.1.x.xx.zip.解压zip文件到你的桌面.解压后的文件夹包含了一些文件以及一个Orchard文件夹.
 
-把Orchard文件夹拷贝到C:\inetpub\wwwroot\.
+把Orchard文件夹拷贝到C:\inetpub\wwwroot.
 
 在资源管理器中进入Orchard文件夹.让我们从App\_Data文件夹开始.
 
@@ -68,6 +68,24 @@ _这个过程是在纯净的Windows 8.1 企业版中进行的._
 点击**默认站点**并**停用**.这将给我们自己的网站使用80端口.
 
 ![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISStopDefaultWebSite.png)
+
+右击**站点**并**添加网站**.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISAddANewWebsite.png)
+
+给你的网站起名并将**物理地址**指向你的Orchard文件夹.点击**完成**.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISAddWebsiteScreen.png)
+
+在警告对话框中点击**是**从而使用80端口.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISPort80Conflict.png)
+
+现在你的网站已经在运行了.点击**浏览**去访问它.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISBrowseToSite.png)
+
+你将会在浏览器中看见Orchard的设置界面.
 
 
 
