@@ -56,7 +56,7 @@ Orchard建立了初始化网站并在浏览器中打开了站点的主页.你讲
 
 比如,你可能会发现XML编辑器\(可以自动着色\)去处理`Palcement.info`文件比较有用.为了这样做在WebMatrix文件`filetypes.xml`中你必须改变`.info`文件的设置\(你可以在以下目录中找到\)
 
-> `32-bit machines: C:\Program Files\Microsoft WebMatrix\config\filetypes.xml`
+> `32-bit machines: C:\Program Files\Microsoft WebMatrix\config\filetypes.xml`
 >
 > `64-bit machines: C:\Program Files (x86)\Microsoft WebMatrix\config\filetypes.xml`
 
@@ -85,4 +85,22 @@ Orchard建立了初始化网站并在浏览器中打开了站点的主页.你讲
 ```
 
 3\)重启WebMatrix使改变生效.
+
+## 处理数据库
+
+如果你在Orchard设置时选择了将**SQL Server Compact**作为数据库,你可以在WebMatri中通过选择**Databases**去打开**Orchard.sdf**数据库.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_opendatabase_675.png)
+
+一旦数据库窗口被打开之后,你可以在浏览区域通过选择表来看见表中的内容.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_databasetable_675.png)
+
+\(如果你已经在**Databases**工作空间,你可以右击Orchard结点然后点击**刷新**来显示数据库和表.\)
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_database_refresh_675.png)
+
+发布你的网站
+
+当你准备好将本地的网站备份上传到Internet的
 
