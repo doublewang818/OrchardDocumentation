@@ -171,5 +171,5 @@ Orchard第一次运行时,你将会在你的浏览器中看到Orchard设置界�
 
 ![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/first_frontend.png)
 
-现在你可以开始配置你的网站了.
+现在你已经在Orchard主页并且开始配置你的网站了.
 
