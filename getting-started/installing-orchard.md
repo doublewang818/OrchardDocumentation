@@ -1,6 +1,6 @@
 # 安装Orchard
 
-本主题面向且经过Orchard1.8版本的测试.
+_本主题面向且经过Orchard1.8版本的测试._
 
 ## 安装Orchard的几种方式
 
@@ -73,11 +73,9 @@ Orchard第一次运行时,你将会在你的浏览器中看到Orchard设置界�
 
 现在你可以开始配置你的网站了.
 
-
-
 ## Change History
 
-Updates for Orchard 1.8
+Updates for Orchard 1.8
 
 4-15-14: Updated info for 1.8 release. Updated some screenshots, requirements, .zip link and other minor changes.
 
