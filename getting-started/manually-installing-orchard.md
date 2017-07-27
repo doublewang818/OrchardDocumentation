@@ -117,3 +117,59 @@ _这个过程是在Visual Studio 2013 Update 1中进行的._
 
 点击Ctrl+F5运行网站.你将会在你的浏览器中看到Orchard设置界面.
 
+## 建立一个站点
+
+Orchard第一次运行时,你将会在你的浏览器中看到Orchard设置界面
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots/get_started_dialog_1.png)
+
+默认情况下,Orchard包含了一个内置的数据库,这样你就可以不用另外再安装一个单独的数据库服务器.如果你选择了这个选项你不需要配置任何数据库信息.一个名为SQL Server CE的迷你版本SQL Server将自动运行在你的网站.它将数据存储在App\_Data文件夹下的一个内嵌数据库.
+
+然而,如果你自己安装了SQL Server或者SQL Server Express,你可以通过指定数据库连接字符串来指定使用这些数据库.在Orchard配置之前,你必须建立好数据库以及数据库字符连接串.只要在你的数据库服务器上建一个空的数据库,建用户,仅此而已.Orchard会在配置过程中自动装载所有的表和数据.
+
+视情况需要,你可以键入一个表前缀\(table prefix\)从而让多个Orchard程序共享同一个数据库但与此同时又让他们的数据是保持独立的.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_85/setup_sqlserver.png)
+
+在设置界面中还有一个区域可以让你选择一个Orchard配方去建立你的网站.你可以选择以下几种Orchard配方:
+
+* **默认**
+  .建立一个经常被使用的Orchard功能的网站.
+* **博客**
+  .建立一个作为个人博客的网站.
+* **核心**
+  .建立一个只有Orchard框架用于开发使用的网站.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots/get_started_recipe.png)
+
+更多关于配方的信息以及如何制作一个自定义的配方,可以参考制作一个网站配方.
+
+当你在设置界面输完必要信息之后,点击**完成设置**.设置过程完成后,你新站点的主页就显示出来了.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/first_frontend.png)
+
+现在你可以开始配置你的网站了.
+
+默认情况下,Orchard包含了一个内置的数据库,这样你就可以不用另外再安装一个单独的数据库服务器.然而,如果你自己安装了SQL Server或者SQL Server Express,你可以通过指定数据库连接字符串来指定使用这些数据库.视情况需要,你可以键入一个表前缀\(table prefix\)从而让多个Orchard程序共享同一个数据库但与此同时又让他们的数据是保持独立的.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_85/setup_sqlserver.png)
+
+在设置界面中还有一个区域可以让你选择一个Orchard配方去建立你的网站.你可以选择以下几种Orchard配方:
+
+* **默认**
+  .建立一个经常被使用的Orchard功能的网站.
+* **博客**
+  .建立一个作为个人博客的网站.
+* **核心**
+  .建立一个只有Orchard框架用于开发使用的网站.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots/get_started_recipe.png)
+
+更多关于配方的信息以及如何制作一个自定义的配方,可以参考制作一个网站配方.
+
+当你在设置界面输完必要信息之后,点击**完成设置**.设置过程完成后,你新站点的主页就显示出来了.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Installing-Orchard/first_frontend.png)
+
+现在你可以开始配置你的网站了.
+
