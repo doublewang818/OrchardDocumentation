@@ -87,5 +87,33 @@ _这个过程是在纯净的Windows 8.1 企业版中进行的._
 
 你将会在浏览器中看见Orchard的设置界面.
 
+## 使用WebMatrix和IISExpress运行网站
+
+在[这里](https://github.com/OrchardCMS/Orchard/releases/latest)下载Orchard.Web.1.x.xx.zip文件.解压Orchard zip文件到本地文件夹.启动WebMatrix,在**快速启动**界面中,点击**打开**选择**文件夹**.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISWMOpenFolder.png)
+
+打开你解压后的zip文件夹,选择名为Orchard的文件夹,然后点击**选择文件夹**去打开网站.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISWMSelectFolder.png)
+
+要运行网站,在WebMatrix工作空间中选择Orchard根目录点击**运行**按钮在下拉列表中选择一款浏览器.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/IISWMRun.png)
+
+你将会在你的浏览器中看到Orchard设置界面.
+
+## 使用Visual Studio和Visual Studio开发服务器运行网站
+
+_这个过程是在Visual Studio 2013 Update 1中进行的._
+
+虽然你可以在Visual Studio中运行预编译版本的Orchard,但是你会发现在Visual Studio中使用完整的源代码版本会更简单.在[这里](https://github.com/OrchardCMS/Orchard/releases/latest)下载源代码.将zip文件解压到本地文件夹.
+
+![](http://docs.orchardproject.net/en/latest/Attachments/Manually-installing-Orchard-zip-file/contents_of_source_zip_file.png)
+
+
+
+
+
 
 
