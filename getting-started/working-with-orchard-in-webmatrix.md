@@ -26,3 +26,15 @@
 
 一个新的名为"Orchard CMS"的子文件夹将被添加到"MyWebsites"的文件夹.点击确认.你的Orchard网站将会在WebMatrix中被打开,然后Orchard的设置页面将在浏览器中打开.
 
+在Orchard设置页面上输入关于网站的基本信息.尤其是:站点名称,站点用户名,用户密码,站点数据使用的数据库,还有Orchard配方.
+
+如果你干刚开始使用Orchard,我们建议你选择SQL Compact Server作为数据库并选择默认的配方.输入信息并完成设置.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots/setup_new_site.png)
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_finish_setup_675.png)
+
+Orchard建立了初始化网站并在浏览器中打开了站点的主页.你讲会自动以设置中的用户名登录\(在本地中是admin\).此时,点击Dashboard会把你带到可以更改网站内容的Orchard Dashboard.
+
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/new_default_site_675.png)
+
