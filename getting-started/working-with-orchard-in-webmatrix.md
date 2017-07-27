@@ -16,9 +16,13 @@
 
 ![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_start_675.png)
 
+找到**Orchard CMS**.输入一个名称作为站点的文件夹名称.例如,如果输入网站名称"Orchard CMS","Document/My Websites/Orchard CMS"的文件夹将会被建立.点击**下一步**.
 
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_select_orchard_675.png)
 
-找到Orchard CMS.
+点击接受条款.
 
+![](http://docs.orchardproject.net/en/latest/Upload/screenshots_675/webmatrix_orchard_eula_675.png)
 
+一个新的名为"Orchard CMS"的子文件夹将被添加到"MyWebsites"的文件夹.点击确认.你的Orchard网站将会在WebMatrix中被打开,然后Orchard的设置页面将在浏览器中打开.
 
